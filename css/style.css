@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+.displayBlock {
+  display: block;
+}
+#create {
+  display: none;
+}
+.displayNone {
+  display: none;
+}
+.container img {
+  padding: 10px;
+}
+.logstyle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.login-section {
+  padding: 20px;
+  width: 50%;
+  padding-left: 8%;
+}
+.login-section .fs {
+  font-family: "Open Sans", sans-serif;
+  color: #8f5849;
+  font-size: 55px;
+  font-weight: 100;
+}
+.new-create {
+  font-size: 20px;
+}
+.f-c {
+  margin-top: 20px;
+}
+.f-c input {
+  padding: 5px;
+  line-height: 40px;
+  width: 65%;
+  font-size: 18px;
+  color: #0073b1;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+.f-c input:focus {
+  outline: none;
+}
+.f-c a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.f-c button {
+  margin-top: 20px;
+  width: 67%;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 30px;
+  background: rgb(168, 55, 55);
+  color: white;
+  border: none;
+}
+.logo-section {
+  width: 50%;
+  overflow: hidden;
+ }
+.header {
+  background-color: rgb(168, 55, 55);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  color: white;
+  z-index: 100;
+  border-bottom: none !important;
+}
+.header .container .logo {
+  color: white;
+}
+#search {
+  width: 200px;
+  margin: 0 20px 0 0;
+  border: none;
+  padding: 0 10px;
+  font-size: 1rem;
+  outline: none;
+}
+.carousel-inner {
+  height: 100vh;
+  position: static;
+}
+.carousel-item img {
+  height: 100vh;
+}
+.banner-cont {
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+.banner-cont p {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.banner-cont h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3.5rem;
+  border-style: dotted none dotted none;
+}
+.banner-cont a:hover {
+  background-color: transparent;
+  border-color: white;
+}
+.carousel-item {
+  position: relative;
+}
+.carousel-item:before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.logo {
+  font-size: 30px;
+  font-weight: 600;
+}
+.box {
+  position: relative;
+}
+.box .cart-number {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  font-size: 10px;
+  text-align: center;
+  z-index: 5;
+}
+.box i {
+  font-size: 30px;
+  z-index: -1;
+  cursor: pointer;
+}
+.btn-group button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  font-size: 0.9rem;
+  background-color: #d90d1e;
+  color: #fff;
+  border: 2px solid #d90d1e;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+.btn-group button:hover,
+.btn-group .select-active {
+  background-color: #fff;
+  color: #d90d1e;
+}
+.card {
+  overflow: hidden;
+}
+.slide-images {
+  width: 33.33%;
+}
+.slide-name {
+  margin: 0 auto;
+  position: relative;
+}
+.slide-name::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: calc(50%);
+  width: 100%;
+  height: 1px;
+  background-color: #77777745;
+  z-index: -1;
+}
+.slide-name span {
+  position: relative;
+  background-color: #fff;
+  padding: 0 10px;
+}
+.slide img {
+  width: 100%;
+}
+/* ********* */
+.foot-2 .iconlast iconify-icon {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(168, 55, 55);
+}
+.foot-2 .iconlast:hover iconify-icon {
+  background: #c54811;
+}
+#use-link {
+  margin-left: -2rem;
+}
+.iconlast li {
+  padding: 0.2rem;
+}
+/*-------------footer section end------------*/
+/*----------------last section--------------*/
+#join {
+  background: #fef8f5;
+}
+#foot ul li {
+  list-style: none;
+}
+#foot a {
+  text-decoration: none;
+}
+#footer-btm {
+  background: #fef8f5;
+}
+.after-line:after {
+  content: " ";
+  position: relative;
+  margin: auto;
+  display: flex;
+  background: #eb5d1e;
+  border: 2px;
+  height: 2px;
+  width: 4rem;
+  top: 10px;
+}
+/* last section end */
